@@ -11,5 +11,14 @@
   "svelteAllowShorthand": true,
   "svelteIndentScriptAndStyle": false,
 
-  "plugins": ["prettier-plugin-svelte", "prettier-plugin-tailwindcss"]
+  "plugins": ["prettier-plugin-svelte", "prettier-plugin-tailwindcss"],
+
+  "overrides": [
+		{
+			"files": "*.svelte",
+			"options": {
+				"parser": "svelte"
+			}
+		}
+	]
 }
