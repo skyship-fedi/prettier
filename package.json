@@ -4,6 +4,7 @@
   "description": "",
   "main": "prettier.json",
   "dependencies": {
+    "prettier-plugin-svelte": "^3.2.6",
     "prettier-plugin-tailwindcss": "^0.6.5"
   }
 }
